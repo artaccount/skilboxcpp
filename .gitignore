@@ -1,1 +1,6 @@
 # skilboxcpp
+/cmake-build-debug/
+/tasks/
+/CMakeLists.txt
+/main.cpp
+/.idea
