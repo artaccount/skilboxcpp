@@ -1,8 +1,7 @@
 #include <iostream>
 
 int main() {
-    int x;
-    int y;
+    int x, y;
     std::cout<<"Введите x и y: ";
     std::cin>>x>>y;
 
