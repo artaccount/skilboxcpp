@@ -4,7 +4,7 @@ int main(){
     std::cout<<"Введите день: ";
     std::cin>>day;
 
-    int weekDay = 1;
+    int weekDay;
     std::cout<<"Введите день недели с которой начинается месяц: ";
     std::cin>>weekDay;
 
