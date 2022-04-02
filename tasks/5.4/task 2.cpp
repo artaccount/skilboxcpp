@@ -7,5 +7,6 @@ int main(){
     std::cout<<"Введите размер отверстия: (x, y)";
     std::cin>>x>>y;
 
-    if (a*b <= x*y || a*c <= x*y){std::cout<<"Пролезет";}
+    if (a*b <= x*y || a*c <= x*y){std::cout<<"Пролезет.";}
+    else std::cout<<"Не пролезет.";
 }
