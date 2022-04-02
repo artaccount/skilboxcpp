@@ -5,9 +5,9 @@ int main(){
     std::cin>>day;
 
     //выходной день, это 6,7,13,14,20,21,27,28, с 1 по 5 и с 8 по 10 включительно
-    if (day >= 1 && day <= 10){std::cout<<"Выходной";}
+    if (day >= 1 && day <= 10){std::cout<<"Выходной.";}
     else if (day == 13 || day == 14 || day == 20 || day == 21 || day == 27 || day == 28){
-        std::cout<<"Выходной";
+        std::cout<<"Выходной.";
     }
-    else std::cout<<"Рабочий";
+    else std::cout<<"Рабочий.";
 }
