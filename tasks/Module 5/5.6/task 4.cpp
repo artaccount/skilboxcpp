@@ -1,5 +1,6 @@
 #include "iostream"
 int main(){
+    system("chcp 65001");
     int day;
     std::cout<<"Введите день: ";
     std::cin>>day;
