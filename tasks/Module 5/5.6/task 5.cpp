@@ -1,5 +1,7 @@
 #include "iostream"
 int main(){
+    system("chcp 65001");
+
     int money;
     std::cout<<"Введите кол-во рублей: ";
     std::cin>>money;
