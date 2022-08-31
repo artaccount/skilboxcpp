@@ -4,8 +4,11 @@ int main()
 {
 	int pYear, pMonth, pDay; // person date
 	int cYear, cMonth, cDay; // current date
-
+	
+	std::cout << "enter personal date: ";
 	std::cin >> pYear >> pMonth >> pDay;
+
+	std::cout << "enter current date: ";
 	std::cin >> cYear >> cMonth >> cDay;
 
 	if (pYear - pYear < 18) {
