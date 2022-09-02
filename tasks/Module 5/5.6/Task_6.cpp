@@ -11,24 +11,42 @@ int main()
 	std::cin >> m >> n >> k;
 
 	if (a > b) {
-		a, b == b, a;
+		int x = 0;
+		x = a;
+		a = b;
+		b = x;
 	}
 	if (a > c) {
-		a, c == c, a;
+		int x = 0;
+		x = a;
+		a = c;
+		c = x;
 	}
 	if (b > c) {
-		b, c == c, b;
+		int x = 0;
+		x = b;
+		b = c;
+		c = x;
 	}
 
 
 	if (m > n) {
-		m, n == n, m;
+		int x = 0;
+		x = m;
+		m = n;
+		n = x;
 	}
 	if (m > k) {
-		m, k == k, m;
+		int x = 0;
+		x = m;
+		m = k;
+		k = x;
 	}
 	if (n > k) {
-		n, k == k, n;
+		int x = 0;
+		x = n;
+		n = k;
+		k = x;
 	}
 
 	if (a == m && b == n && c == k) { std::cout << "Boxes are equal"; }
